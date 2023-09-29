@@ -1,11 +1,12 @@
-import './App.css'
+import "./App.css";
+import Room from "./pages/Room";
 
-function App() {
+const App = () => {
   return (
-    <>
-      
-    </>
-  )
-}
+    <div>
+      <Room />
+    </div>
+  );
+};
 
-export default App
+export default App;
